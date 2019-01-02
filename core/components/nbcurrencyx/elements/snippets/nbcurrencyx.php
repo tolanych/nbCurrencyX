@@ -29,4 +29,4 @@ if (!empty($price)) {
 if (!empty($number_format))
 	return number_format($value, floor($value) == $value ? 0 : $precision, '.', ' ');
 else
-	return round($value / $price, $precision);
+	return round($value, $precision);
