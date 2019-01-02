@@ -1,0 +1,10 @@
+Changelog for nbCurrencyX.
+
+1.1.0-beta
+==============
+- cron-script move to assets
+- add in snippet number_format parameter
+
+1.0.0-beta
+==============
+- feature ¯\_(ツ)_/¯

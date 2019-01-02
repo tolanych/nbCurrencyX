@@ -11,7 +11,7 @@ if (!defined('MODX_CORE_PATH')) {
 return [
     'name' => 'nbCurrencyX',
     'name_lower' => 'nbcurrencyx',
-    'version' => '1.0.0',
+    'version' => '1.1.0',
     'release' => 'pl',
     // Install package to site right after build
     'install' => true,
