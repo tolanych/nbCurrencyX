@@ -5,6 +5,7 @@ Author: tolanych - https://github.com/tolanych
 --------------------
 
 A NBRB.by currencies Extra for MODx Revolution.
+dependecies: pdoTools > 2.7.5
 
 For update currenices add request in cron.
 http://example.ru/core/components/nbcurrencyx/cron/getcurrency.php?sc=<SECRET_CODE>&val_codes=<VAL_CODES>

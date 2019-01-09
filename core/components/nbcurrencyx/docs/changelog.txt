@@ -1,5 +1,13 @@
 Changelog for nbCurrencyX.
 
+1.2.0-beta
+==============
+- add fenom modifier
+ex.:
+{$_modx->resource.price | nbcurr : 'BYN-USD'}
+{$_modx->resource.price | nbcurr : 'USD-BYN'}
+{$_modx->resource.price | nbcurr : ['curr'=>'USD','dir'=>'curr-to-byn','number_format'=>'1','deg'=>'2']}
+
 1.1.0-beta
 ==============
 - cron-script move to assets

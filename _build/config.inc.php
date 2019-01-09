@@ -11,7 +11,7 @@ if (!defined('MODX_CORE_PATH')) {
 return [
     'name' => 'nbCurrencyX',
     'name_lower' => 'nbcurrencyx',
-    'version' => '1.1.0',
+    'version' => '1.2.0',
     'release' => 'pl',
     // Install package to site right after build
     'install' => true,
@@ -19,7 +19,7 @@ return [
     'update' => [
         'chunks' => false,
         'menus' => false,
-        'plugins' => false,
+        'plugins' => true,
         'resources' => false,
         'settings' => false,
         'snippets' => true,
@@ -28,7 +28,7 @@ return [
     ],
     // Which elements should be static by default
     'static' => [
-        'plugins' => false,
+        'plugins' => true,
         'snippets' => true,
         'chunks' => false,
     ],
